@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  present: false
+  absent: false
+  sick_leave: false
+  day_off: false
+
+two:
+  present: false
+  absent: false
+  sick_leave: false
+  day_off: false

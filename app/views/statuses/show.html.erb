@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Present:</strong>
+  <%= @status.present %>
+</p>
+
+<p>
+  <strong>Absent:</strong>
+  <%= @status.absent %>
+</p>
+
+<p>
+  <strong>Sick leave:</strong>
+  <%= @status.sick_leave %>
+</p>
+
+<p>
+  <strong>Day off:</strong>
+  <%= @status.day_off %>
+</p>
+
+<%= link_to 'Edit', edit_status_path(@status) %> |
+<%= link_to 'Back', statuses_path %>
