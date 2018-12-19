@@ -49,7 +49,8 @@ class EmployeesController < ApplicationController
   # DELETE /employees/1.json
   def destroy
     @employee.destroy
-      flash[:success] = "Empolyee destroyed!"
+    flash[:success] = "Empolyee destroyed!"
+    redirect_to root_url
   end
 
   private
